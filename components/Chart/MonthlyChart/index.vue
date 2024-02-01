@@ -69,19 +69,15 @@
       datasets: [
         {
           label: "Active Users",
-          backgroundColor: {
-        fill: 'start',
-        gradient: {
-          angle: Math.PI / 4,
-          type: 'linear',
-          color: ['#EA8D51', 'transparent'],
-        },
+      backgroundColor: '#EA8D51', 
+      tension: 0.4,
+      borderColor: "#15AE73",
+      borderWidth: 2,
+      fill: {
+        target: 'origin', 
       },
-          tension: 0.4,
-          borderColor: "#15AE73",
-          borderWidth: 2,
-          pointBackgroundColor: "#15AE73",
-          data: [40, 39, 10, 40, 39, 80, 40],
+      pointBackgroundColor: "blue",
+      data: [40, 39, 10, 40, 39, 80, 40],
         },
       ],
     });
