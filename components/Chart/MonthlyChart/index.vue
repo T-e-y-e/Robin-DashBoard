@@ -1,7 +1,7 @@
 <template>
     <div class="mt-5 rounded-lg bg-white">
       <p class="p-3 px-6 font-bold uppercase text-[#566BA0]">Monthly active users</p>
-      <div class="mt-5 h-[300px] bg-[#15AE73] md:p-3">
+      <div class="mt-5 h-[300px] bg-background md:p-3">
         <Line :data="data" :options="options" />
       </div>
     </div>
@@ -50,6 +50,7 @@
             ticks: {
               color: "transparent",
             },
+              beginAtZero: true,
           },
           x: {
             display: true,
