@@ -33,6 +33,7 @@
     "lastname": "Olamide"
    }
 
+  //  Get the user initials
    function getUserInitials(user) {
        const firstnameInitial = user.firstname.charAt(0);
        const lastnameInitial = user.lastname.charAt(0);

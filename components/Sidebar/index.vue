@@ -1,6 +1,6 @@
 <template>
     <aside 
-    class="h-screen w-max sticky bg-white z-10 pt-8"
+    class="h-screen w-max sticky top-0 bg-white z-10 pt-8"
     :class="{ 'px-6': !isCollapseOpen, 'px-10': isCollapseOpen }"
     >
          <div :class="{ 'hidden': !isCollapseOpen, 'block': isCollapseOpen }" class="px-4">
@@ -99,10 +99,6 @@ function toggleCollapse() {
 </script>
 
 <style scoped>
-
-  .router-link-active{
-    color: yellow
-  }
   .activeClass {
     color: blue;
   }

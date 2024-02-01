@@ -1,5 +1,5 @@
 <template>
-  <div class="px-24 pt-6">
+  <div class="px-20 pt-6">
     <div class="grid grid-cols-4 gap-8">
       <div
         v-for="p in processedData"
@@ -31,7 +31,6 @@ function addSpaceBeforeCapitals(str) {
   return str.replace(/([a-z])([A-Z])/g, '$1 $2');
 }
 
-// Process each key in the data object
 const processedData = {};
 for (const key in chatData) {
   if (chatData.hasOwnProperty(key)) {

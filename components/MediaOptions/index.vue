@@ -1,4 +1,3 @@
-
 <template>
     <div class="mt-5">
         <h6 class="text-zinc-600 text-base font-medium font-['Hanken Sans'] leading-normal mb-2">Media Storage Used</h6>

@@ -76,7 +76,7 @@
       fill: {
         target: 'origin', 
       },
-      pointBackgroundColor: "blue",
+      pointBackgroundColor: "#15AE73",
       data: [40, 39, 10, 40, 39, 80, 40],
         },
       ],

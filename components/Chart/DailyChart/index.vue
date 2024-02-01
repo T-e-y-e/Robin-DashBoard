@@ -74,7 +74,7 @@
           borderColor: "#EA8D51",
           borderWidth: 2,
           fill: true,
-          pointBackgroundColor: "blue",
+          pointBackgroundColor: "#EA8D51",
           data: [40, 39, 10, 40, 39, 80, 40],
         },
       ],

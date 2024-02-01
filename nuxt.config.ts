@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  app: {
+    head: {
+      title: "Robin Dashboard",
+    }
+  },
   runtimeConfig:{
     API_URL: "https://sfe-m3if.onrender.com/api/v1",
     public:{
