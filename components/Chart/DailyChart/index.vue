@@ -68,10 +68,10 @@
       labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
       datasets: [
         {
-          label: "Sales over time",
+          label: "Active Users",
           backgroundColor: '#EA8D51',
           tension: 0.4,
-          borderColor: "blue",
+          borderColor: "#EA8D51",
           borderWidth: 2,
           fill: true,
           pointBackgroundColor: "blue",

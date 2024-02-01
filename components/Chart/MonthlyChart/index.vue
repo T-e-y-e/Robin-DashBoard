@@ -68,10 +68,10 @@
       labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
       datasets: [
         {
-          label: "Sales over time",
+          label: "Active Users",
           backgroundColor: '#EA8D51',
           tension: 0.4,
-          borderColor: "blue",
+          borderColor: "#15AE73",
           borderWidth: 2,
           fill: true,
           pointBackgroundColor: "blue",
