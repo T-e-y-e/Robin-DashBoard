@@ -50,7 +50,6 @@
             ticks: {
               color: "transparent",
             },
-              beginAtZero: true,
           },
           x: {
             display: true,
@@ -70,11 +69,17 @@
       datasets: [
         {
           label: "Active Users",
-          backgroundColor: '#EA8D51',
+          backgroundColor: {
+        fill: 'origin',  // Set fill to 'origin' for filling the area under the line
+        gradient: {
+          angle: Math.PI / 4,
+          type: 'linear',
+          color: ['#EA8D51', 'transparent'], // Use your desired colors
+        },
+      },
           tension: 0.4,
           borderColor: "#15AE73",
           borderWidth: 2,
-          fill: true,
           pointBackgroundColor: "blue",
           data: [40, 39, 10, 40, 39, 80, 40],
         },
