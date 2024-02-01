@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="grid grid-cols-2 gap-4">
        <ChartDailyChart />
        <ChartMonthlyChart />
     </div>

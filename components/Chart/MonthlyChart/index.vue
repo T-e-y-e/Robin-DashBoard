@@ -1,7 +1,7 @@
 <template>
-    <div class="mt-5">
-      <p class="font-bold">Sales over time</p>
-      <div class="mt-5 h-[300px] rounded-lg border bg-background md:p-3">
+    <div class="mt-5 rounded-lg bg-white">
+      <p class="p-3 px-6 font-bold uppercase text-[#566BA0]">Monthly active users</p>
+      <div class="mt-5 h-[300px] bg-background md:p-3">
         <Line :data="data" :options="options" />
       </div>
     </div>
@@ -35,21 +35,29 @@
             intersect: false,
           },
         },
+        interaction: {
+      mode: 'nearest',
+      axis: 'x',
+      intersect: false
+    },
+
         scales: {
           y: {
+            display: true,
             grid: {
-              color: "blue",
+              color: "#E7E8F2",
             },
             ticks: {
-              color: "red",
+              color: "transparent",
             },
           },
           x: {
+            display: true,
             grid: {
-              color: "red",
+                color: "transparent",
             },
             ticks: {
-              color: "red",
+              color: "#566BA0",
             },
           },
         },
@@ -57,14 +65,15 @@
     });
   
     const data = ref({
-      labels: ["January", "February", "March", "April", "May", "June", "July"],
+      labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
       datasets: [
         {
           label: "Sales over time",
-          backgroundColor: "blue",
+          backgroundColor: '#EA8D51',
           tension: 0.4,
           borderColor: "blue",
           borderWidth: 2,
+          fill: true,
           pointBackgroundColor: "blue",
           data: [40, 39, 10, 40, 39, 80, 40],
         },
