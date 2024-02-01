@@ -80,7 +80,7 @@
           tension: 0.4,
           borderColor: "#15AE73",
           borderWidth: 2,
-          pointBackgroundColor: "blue",
+          pointBackgroundColor: "#15AE73",
           data: [40, 39, 10, 40, 39, 80, 40],
         },
       ],
