@@ -1,7 +1,7 @@
 <template>
     <div>
         <ChatStatsBoard />
-        <div class="px-16 pt-6">
+        <div class="px-14 pt-6">
             <ChatTabs />
         </div>
     </div>

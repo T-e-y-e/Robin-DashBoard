@@ -15,7 +15,7 @@
             </NuxtLink>
          </div>
 
-         <div class="pt-16">
+         <div class="pt-10">
       <div
         class="flex w-full flex-col gap-5 px-4 pb-5 border-b border-gray-300"
       >
@@ -40,7 +40,7 @@
         </div>
 
         <div
-        class="flex text-red-500 items-center py-3 link cursor-pointer mt-20"
+        class="flex text-red-500 items-center py-3 link cursor-pointer mt-16"
           :class="{ 'gap-0': !isCollapseOpen, 'gap-6': isCollapseOpen }"
       >
         <div>

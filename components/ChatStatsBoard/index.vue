@@ -1,6 +1,6 @@
 <template>
-  <div class="px-24 pt-6">
-    <div class="grid grid-cols-4 gap-8">
+  <div class="px-14 pt-6">
+    <div class="grid grid-cols-4 gap-6">
       <div
         v-for="p in processedData"
         :key="p.modifiedKey"
