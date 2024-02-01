@@ -3,7 +3,7 @@
         <div>
             <AnalyticsStatsBoard />
         </div>
-        <div class="px-24 pt-6">
+        <div class="px-16 pt-6">
             <div class="border-t border-gray-300"></div>
             <!-- <ChatTabs /> -->
             <Chart />
