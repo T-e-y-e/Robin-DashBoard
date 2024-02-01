@@ -70,11 +70,11 @@
         {
           label: "Active Users",
           backgroundColor: {
-        fill: 'origin',  // Set fill to 'origin' for filling the area under the line
+        fill: 'start',
         gradient: {
           angle: Math.PI / 4,
           type: 'linear',
-          color: ['#EA8D51', 'transparent'], // Use your desired colors
+          color: ['#EA8D51', 'transparent'],
         },
       },
           tension: 0.4,
