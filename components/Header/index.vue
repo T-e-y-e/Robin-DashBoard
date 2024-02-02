@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full py-6  border-b border-slate-200">
+    <div class="w-full py-6 sticky top-0  border-b border-slate-200">
         <div class="px-12 flex justify-between items-center">
          <div>
             <p class="text-[#9999BC] text-base font-normal font-['Hanken Sans'] leading-normal">
