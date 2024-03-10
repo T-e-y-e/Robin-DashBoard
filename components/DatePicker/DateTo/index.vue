@@ -16,7 +16,7 @@
   </script>
 
   <style>
-  :where(.css-dev-only-do-not-override-1hsjdkk).ant-picker {
+  .ant-picker {
     margin: 0;
     height: 50px;
     width: 100%;
